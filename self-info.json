@@ -1,0 +1,13 @@
+{
+  "name" : "Asel",
+  "surname" : "Akylbek kyzy",
+  "nickname" : "aselesa",
+  "age" : 18,
+  "university" : "AUCA",
+  "department" : "software engineering",
+  "few words about myself" : {
+    "1" :  "draw but not good at this", "2" : "introvert", "3" : "hard social person ", "4" :  "anime lover","5" : "favorite thing - sufferings", "6" : "math lover"},
+  "if you want to discuss Office" : "i am on 5 season",
+  "if you want to watch it" : "just tell me", 
+  "if you want to learn back-end" : "call me and i won't refuse you"
+}
