@@ -1,4 +1,28 @@
-fromd django.http import HttpResponse
+from django.shortcuts import render
 
-der index(request):
-    request HttpResponse("<h1>This is musixc app homepage")
+info = [
+    {
+        'name': 'Asel',
+        'username':'aselesa',
+        'nationality': 'kyrgyz',
+        'age': '18'
+    },
+    {
+        'name': 'Yahiko',
+        'username':'yoyo',
+        'nationality': 'japanese',
+        'age': '20'
+    }
+    
+]
+
+def home(request):
+    context = {
+        'info': info
+    }
+    return render(request, 'myhole/home.html', context)
+
+def about(request):
+    return render(request, 'myhole/about.html', {'title': 'About'})
+
+

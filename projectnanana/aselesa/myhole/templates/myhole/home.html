@@ -1,0 +1,15 @@
+{% extends "myhole/base.html" %}
+{% block content %}
+    {% for info in info %}
+        <article class="media content-section">
+            <div class="media-body">
+                <div class="article-metadata">
+                    <a class="mr-2" href="#">{{ info.name }}</a>
+                    <small class="text-muted">{{ info.username }}</small>
+                </div>
+                <h2><a class="article-title" href="#">{{ info.unationality }}</a></h2>
+                <p class="article-content">{{ info.content }}</p>
+            </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
