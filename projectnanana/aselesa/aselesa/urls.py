@@ -1,8 +1,8 @@
-from django.contrib import include, admin
-from django.urls import path
+from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('myhole/', include('music urls')),
+    path('', include('myhole.urls')),
                
 ]
