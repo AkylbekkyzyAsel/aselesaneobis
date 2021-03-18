@@ -11,7 +11,7 @@ constantly==15.1.0
 cryptography==1.9
 cssselect==1.0.1
 Cython==0.25.2
-Django==2.2.2
+Django==2.2.18
 django-filter==2.1.0
 djangorestframework==3.9.4
 Faker==0.7.17
