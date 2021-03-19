@@ -13,7 +13,7 @@ cssselect==1.0.1
 Cython==0.25.2
 Django==2.2.2
 django-filter==2.1.0
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 Faker==0.7.17
 hyperlink==17.2.1
 idna==2.5
