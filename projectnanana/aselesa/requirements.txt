@@ -47,7 +47,7 @@ python-dateutil==2.6.0
 python-decouple==3.1
 pytz==2017.2
 pytzdata==2017.2
-PyYAML==3.12
+PyYAML==5.4
 queuelib==1.4.2
 requests==2.14.2
 Scrapy==1.4.0
