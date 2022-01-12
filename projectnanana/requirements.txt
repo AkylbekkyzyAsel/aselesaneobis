@@ -25,7 +25,7 @@ packaging==16.8
 parsel==1.2.0
 pastel==0.1.0
 pendulum==1.2.2
-pipenv==2018.11.26
+pipenv==2022.1.8
 psutil==5.2.2
 pyaml==16.12.2
 pyasn1==0.2.3
