@@ -3,7 +3,7 @@ attrs==17.2.0
 Automat==0.6.0
 backpack==0.1
 blinker==1.4
-certifi==2019.6.16
+certifi==2022.12.7
 cffi==1.10.0
 cleo==0.6.0
 conda==4.3.22
